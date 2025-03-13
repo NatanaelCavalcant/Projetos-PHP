@@ -1,5 +1,6 @@
 <?php 
 
+//criando um array e atribuindo numeros como indentificadores para as frases 
 $frases = [
     1 => "É importante agradecer pelo hoje sem nunca desistir do amanhã!", 
     2 => "Se expressarmos gratidão pelo que temos, teremos mais pelo que expressar gratidão", 
