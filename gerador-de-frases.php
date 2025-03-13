@@ -8,13 +8,16 @@ $frases = [
     4 => "Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas, acima de tudo, seja você sempre."
 ];
 
+//isso é um Heredoc, não é muito usado, mas usei por conta da aula do Guanabara que vi hoje
 echo <<< MOTIVAR
     \u{2600} A Frase do dia é:    
 
 MOTIVAR;
 
+//variável que vai receber o rand e o rand vai mostrar número entre 1 e 4
 $numerosAleatorios = rand(1, 4);
 
+//atribuindo os números do rand aos números do array
 echo $frases[$numerosAleatorios];
 
 ?>
